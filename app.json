@@ -2,6 +2,27 @@
   "expo": {
     "name": "movies",
     "slug": "movies",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "500d7d11-f3e8-4d9f-8345-fc5b2efdebab"
+      }
+    }
   }
 }
